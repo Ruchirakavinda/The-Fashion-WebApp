@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-multi-carousel/lib/styles.css";
+
+  .cover-1-title{
+  font-family: Playfair;
+  text-transform: capitalize;
+  
+  }
+  .cover-2-title{
+    text-align: left;
+    font-family: Playfair;
+    line-height: 65px !important;
+    }
+  .img-box-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../public/images/women.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .img-box-2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../public/images/men.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .product-title{
+    text-align: left;
+    font-family: Playfair;
+  }
+
+ .card-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
